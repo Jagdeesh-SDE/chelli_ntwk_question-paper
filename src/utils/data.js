@@ -29,214 +29,229 @@ export const questions = [
   {
     id: 4,
     question:
-      "What is the declarative approach for rendering a dynamic list of components depending on array values?",
+      "What are the two services performed by the data link layer of the OSI model?",
     options: [
-      "Using <Each/> component",
-      "Using reduce array method",
-      "Using Array.map() method",
-      "Using for or while loop",
+      "It encrypts data packets",
+      "It determtnes the path to forward packets",
+      "It accepts Layer 3 packets and encapsulates them into frames",
+      "It provides media access control and performs error detection",
     ],
     answer: "Using Array.map() method",
   },
   {
     id: 5,
-    question: "What is meant by the state in React?",
-    options: [
-      "Internal storage of component",
-      "External storage of component",
-      "Permanent storage",
-      "None of the above",
-    ],
+    question:
+      "What two application layer protocols are part of TCP/IP protcol suite? ( Chooese two)",
+    options: ["ARP", "FTP", "DNS", "NAT"],
     answer: "Internal storage of component",
   },
   {
     id: 6,
-    question: "Which command can be used for the creation of React app?",
-    options: [
-      "npx install create-react-app my-app",
-      "install -g create-react-app",
-      "npm install create-react-app my-app",
-      "None of the above",
-    ],
+    question:
+      "In which CLI configuration mode can you configure the hostname of a device?",
+    options: ["Line", "Interface", "GlcDal", "Router"],
     answer: "npx install create-react-app my-app",
   },
   {
     id: 7,
-    question: "What is used for passing the data to a component from outside?",
-    options: ["Render with arguments", "setState", "PropTypes", "props"],
+    question:
+      "Which type of topology requires less cabling as compared to Mesh and still provides good protection(data can flow from other side, if on elink is broken)?",
+    options: [
+      "Ring Network Topology",
+      "Bus Network Topology",
+      "Star Network Topology",
+      "Point to Point Network Topology",
+    ],
     answer: "props",
   },
   {
     id: 8,
-    question: "______ will help to keep the data unidirectional in React.",
-    options: ["Dom", "Props", "JSX", "Flux"],
+    question:
+      "At which layer of the OSI model would a logical address be encapsulated?",
+    options: [
+      "Physical Layer",
+      "Network Layer",
+      "Data link Layer",
+      "Transport Layer",
+    ],
     answer: "Flux",
   },
   {
     id: 9,
     question:
-      "Which of the following statements related to the “webpack” command is true?",
-    options: [
-      "It runs React local development server",
-      "It is used to transpile all the JavaScript into a single file",
-      "It is a module bundler",
-      "None of the above",
-    ],
+      "Which of the following layers of the OSI model is responsible for user interaction?",
+    options: ["Layer 4", "Layer 5", "Layer 6", "Layer 7"],
     answer: "It is a module bundler",
   },
   {
     id: 10,
-    question: "What are the ReactJS limitations?",
-    options: [
-      "React will use inline templating and JSX which might seem awkward to a few developers",
-      "ReactJS is only for the view layer of the application, which means we will make use of other technologies as well for getting complete tooling set for the application development",
-      "The React library is too large",
-      "All of these",
-    ],
+    question:
+      "which PDU is processed when a host computer is de-encapsulating a message at the transport layer of the TCP/IP model?",
+    options: ["Bits", "Frame", "Packet", "Segment"],
     answer: "All of these",
   },
   {
     id: 11,
-    question: "What is the usage of setState?",
+    question:
+      "What method can be used by two computers to ensure that packets are not dropped because too much data is being sent too quickly?",
     options: [
-      "Replacing the state fully instead of the default merge action",
-      "Accessing the earlier state before the setState operation",
-      "Invoking the code after the setState operation is performed",
-      "None of these",
+      "Encapsulation",
+      "Flow control",
+      "Access method",
+      "Response timeout",
     ],
     answer: "Invoking the code after the setState operation is performed",
   },
   {
     id: 12,
-    question: "The Keys given to a list of elements in React should be ______.",
+    question:
+      "Which type of Network Topology is most common to avoid Layer-2 network loops?",
     options: [
-      "Not necessarily unique",
-      "Unique among the siblings only",
-      "Unique in the DOM (Document Object Model)",
-      "None of these",
+      "Ring Network Topology",
+      "Tree Network Topology",
+      "Starhqetwork Topology",
+      "Bus Network Topology",
     ],
     answer: "Unique among the siblings only",
   },
   {
     id: 13,
     question:
-      "What function will permit for rendering the React content in an HTML page?",
+      "You suspect a router interface is malfunctioning. In which mode can you verify its status?",
     options: [
-      "React.render()",
-      "ReactDOM.start()",
-      "React.mount()",
-      "ReactDOM.render()",
+      "Privileged Mode",
+      "Global Configuration Mode",
+      "User Mode",
+      "ROM Monitor Mode",
     ],
     answer: "ReactDOM.render()",
   },
   {
     id: 14,
-    question: "React is mainly used for developing ______.",
-    options: ["Connectivity", "Database", "User interface", "Design platform"],
+    question:
+      "WAN technologies, such as X.25 and ATM, would use what layer of the OSI model?",
+    options: [
+      "Application layer",
+      "Transport layer",
+      "Network Layer",
+      "Datalink",
+    ],
     answer: "User interface",
   },
   {
     id: 15,
-    question: " ______ is a necessary API for every React.js component.",
-    options: [
-      "renderComponent",
-      "render",
-      "SetinitialComponent",
-      "All of the above",
-    ],
+    question:
+      "what process is used to place one message inside another message for transfer from the source to the destination?",
+    options: ["Access Control", "Decoding", "Encapsulation", "Flow Control"],
     answer: "renderComponent",
   },
   {
     id: 16,
     question:
-      "Which of the following is used in React.js to increase performance?",
-    options: [
-      "Virtual DOM",
-      "Original DOM",
-      "Both A and B",
-      "None of the above",
-    ],
+      "Which PDU format is used when bits are received from the network medium by the NIC of a host?",
+    options: ["File", "Frame", "Packet", "Segment"],
     answer: "Virtual DOM",
   },
   {
     id: 17,
-    question: "What is ReactJS?",
+    question:
+      "How many times can you perform leading zero compression in a single IPV6 address?",
     options: [
-      "Server-side framework",
-      "user interface framework",
-      "both a and b",
-      "none of the above",
+      "As often as you like",
+      "Only once",
+      "Twice",
+      "You cannot perform this type of compression in an IPV6 address",
     ],
     answer: "user interface framework",
   },
   {
     id: 18,
-    question: "Who created React.js?",
-    options: ["Jordan Mike", "Jordan Walke", "Tim Lee", "Jordan Lee"],
+    question:
+      "A router is connected to switch with a Single link. Which inter-VLAN method is used here ?",
+    options: [
+      "ROAST",
+      "Router With sub•mterfaces",
+      "Router with multiple interfaces",
+      "Switch Virtual interfaces",
+    ],
     answer: "Jordan Walke",
   },
   {
     id: 19,
-    question: "In which language is React.js written?",
-    options: ["Python", "JavaScript", "Java", "PHP"],
-    answer: "JavaScript",
+    question: "Calculate the valid number of hosts in 192.0.0.22/24",
+    options: ["256", "65536", "254", "65534"],
+    answer: "254",
   },
   {
     id: 20,
-    question: "What is Babel?",
-    options: [
-      "JavaScript compiler",
-      "JavaScript interpreter",
-      "JavaScript transpiler",
-      "None of the above",
-    ],
+    question: "Which class is used for research purposes?",
+    options: ["class C", "class A", "class D", "class E"],
     answer: "JavaScript transpiler",
   },
   {
     id: 21,
-    question: "In MVC, what does React.js act as?",
-    options: ["Model", "Controller", "View", "Middleware"],
-    answer: "View",
+    question: "Find the network address for 172.165.56.35/27?",
+    options: [
+      "172.165.56.32",
+      "172.165.56.33",
+      "172.165.56.63",
+      "173.165.56.32",
+    ],
+    answer: "172.165.56.32",
   },
   {
     id: 22,
-    question: "Identify the smallest building block of React.JS.",
-    options: ["Props", "Elements", "Components", "None of the above"],
-    answer: "Components",
+
+    question:
+      "Which of the following statements is true about the ping command?",
+    options: [
+      "The ping command checks for available printers on the network.",
+      "The ping command tests connectivity and measures round-trip time to a specific device using its IP address.",
+      "The ping command activates the encryption protocols for secure communication.",
+      "The ping command automatically fixes network errors.",
+    ],
+    answer:
+      "The ping command tests connectivity and measures round-trip time to a specific device using its IP address.",
   },
   {
     id: 23,
-    question:
-      "Which of the following function is used to change the state of react component?",
+    question: "What is a requirement for nonoverlapping Wi-Fi channels?",
     options: [
-      "this.setState()",
-      "this.state()",
-      "this.setChangeState()",
-      "None of the above",
+      "different security settings",
+      "discontinuous frequency ranges",
+      "unique SSIDs",
+      "different transmission speeds",
     ],
-    answer: "this.setState()",
+    answer: "discontinuous frequency ranges",
   },
   {
     id: 24,
-    question: "Which of the following are two ways to handle data in react?",
+    question: "Identify the private address range in Class B",
     options: [
-      "services and components",
-      "State and props",
-      "state and services",
-      "state and component",
+      "10.0.0.0 - 10.255.255.255",
+      "172.16.0.0 - 172.31.255.255",
+      "192.168.0.0 - 192.168.255.255",
+      "173.16.0.0 - 172.31.255.255",
     ],
-    answer: "this.setState()",
+    answer: "172.16.0.0 - 172.31.255.255",
   },
   {
     id: 25,
-    question: "ES6 stands for _________",
-    options: ["ECMA 6", "ECMAJavaScript 6", "ECMAScript 6", "EJavaScript 6"],
-    answer: "ECMAScript 6",
+
+    question: "Which of the following is NOT a valid IPv4 address format?",
+    options: ["192.168.1.1", "10.0.0.4", "172.16.31.12", "255.255.255.256"],
+    answer: "255.255.255.256",
   },
   {
     id: 26,
-    question: "Choose the method with refers to the parent class in ReactJS?",
-    options: ["this()", "super()", "iniherits()", "self()"],
+    question:
+      "From the given options, identify core capabilities of cloud (Select TWO CORRECT options)",
+    options: [
+      "Rapid Elasticity",
+      "Reliability",
+      "Security",
+      "Resource pooling",
+    ],
     answer: "super()",
   },
   {
