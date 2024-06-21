@@ -9,14 +9,14 @@ export const questions = [
       "Twice",
       "You cannot perform this type of compression in an IPV6 address",
     ],
-    answer: "As often as you like",
+    answer: "Only once",
   },
   {
     id: 2,
     question:
       "Which layer of the OSI model is responsible for specifying the encapsulation method used for specific types of media?",
     options: ["Application", "Transport", "Physical", "Datalink"],
-    answer: "Application",
+    answer: "Datalink",
   },
   {
     id: 3,
@@ -24,7 +24,7 @@ export const questions = [
     question:
       "Which layer of the OSI model is included in the Internet layer of the TCP/IP model ?",
     options: ["Network", "Application", "Transport", "Datalink"],
-    answer: "1",
+    answer: "Network",
   },
   {
     id: 4,
@@ -36,21 +36,26 @@ export const questions = [
       "It accepts Layer 3 packets and encapsulates them into frames",
       "It provides media access control and performs error detection",
     ],
-    answer: "Using Array.map() method",
+
+    answer: "It accepts Layer 3 packets and encapsulates them into frames",
+    // answer: [
+    //   "It accepts Layer 3 packets and encapsulates them into frames",
+    //   "It provides media access control and performs error detection",
+    // ],
   },
   {
     id: 5,
     question:
       "What two application layer protocols are part of TCP/IP protcol suite? ( Chooese two)",
     options: ["ARP", "FTP", "DNS", "NAT"],
-    answer: "Internal storage of component",
+    answer: "FTP",
   },
   {
     id: 6,
     question:
       "In which CLI configuration mode can you configure the hostname of a device?",
-    options: ["Line", "Interface", "GlcDal", "Router"],
-    answer: "npx install create-react-app my-app",
+    options: ["Line", "Interface", "Global", "Router"],
+    answer: "Global",
   },
   {
     id: 7,
@@ -62,7 +67,7 @@ export const questions = [
       "Star Network Topology",
       "Point to Point Network Topology",
     ],
-    answer: "props",
+    answer: "Point to Point Network Topology",
   },
   {
     id: 8,
@@ -74,21 +79,21 @@ export const questions = [
       "Data link Layer",
       "Transport Layer",
     ],
-    answer: "Flux",
+    answer: "Network Layer",
   },
   {
     id: 9,
     question:
       "Which of the following layers of the OSI model is responsible for user interaction?",
     options: ["Layer 4", "Layer 5", "Layer 6", "Layer 7"],
-    answer: "It is a module bundler",
+    answer: "Layer 7",
   },
   {
     id: 10,
     question:
       "which PDU is processed when a host computer is de-encapsulating a message at the transport layer of the TCP/IP model?",
     options: ["Bits", "Frame", "Packet", "Segment"],
-    answer: "All of these",
+    answer: "Segment",
   },
   {
     id: 11,
@@ -100,7 +105,7 @@ export const questions = [
       "Access method",
       "Response timeout",
     ],
-    answer: "Invoking the code after the setState operation is performed",
+    answer: "Flow control",
   },
   {
     id: 12,
@@ -109,10 +114,10 @@ export const questions = [
     options: [
       "Ring Network Topology",
       "Tree Network Topology",
-      "Starhqetwork Topology",
+      "Star Network Topology",
       "Bus Network Topology",
     ],
-    answer: "Unique among the siblings only",
+    answer: "Tree Network Topology",
   },
   {
     id: 13,
@@ -124,7 +129,7 @@ export const questions = [
       "User Mode",
       "ROM Monitor Mode",
     ],
-    answer: "ReactDOM.render()",
+    answer: "User Mode",
   },
   {
     id: 14,
@@ -136,60 +141,48 @@ export const questions = [
       "Network Layer",
       "Datalink",
     ],
-    answer: "User interface",
+    answer: "Network Layer",
   },
   {
     id: 15,
     question:
       "what process is used to place one message inside another message for transfer from the source to the destination?",
     options: ["Access Control", "Decoding", "Encapsulation", "Flow Control"],
-    answer: "renderComponent",
+    answer: "Encapsulation",
   },
   {
     id: 16,
     question:
       "Which PDU format is used when bits are received from the network medium by the NIC of a host?",
     options: ["File", "Frame", "Packet", "Segment"],
-    answer: "Virtual DOM",
+    answer: "Frame",
   },
   {
     id: 17,
     question:
-      "How many times can you perform leading zero compression in a single IPV6 address?",
-    options: [
-      "As often as you like",
-      "Only once",
-      "Twice",
-      "You cannot perform this type of compression in an IPV6 address",
-    ],
-    answer: "user interface framework",
-  },
-  {
-    id: 18,
-    question:
       "A router is connected to switch with a Single link. Which inter-VLAN method is used here ?",
     options: [
       "ROAST",
-      "Router With sub•mterfaces",
+      "Router With sub-interfaces",
       "Router with multiple interfaces",
       "Switch Virtual interfaces",
     ],
-    answer: "Jordan Walke",
+    answer: "ROAST",
   },
   {
-    id: 19,
+    id: 18,
     question: "Calculate the valid number of hosts in 192.0.0.22/24",
     options: ["256", "65536", "254", "65534"],
     answer: "254",
   },
   {
-    id: 20,
+    id: 19,
     question: "Which class is used for research purposes?",
     options: ["class C", "class A", "class D", "class E"],
-    answer: "JavaScript transpiler",
+    answer: "class E",
   },
   {
-    id: 21,
+    id: 20,
     question: "Find the network address for 172.165.56.35/27?",
     options: [
       "172.165.56.32",
@@ -200,7 +193,7 @@ export const questions = [
     answer: "172.165.56.32",
   },
   {
-    id: 22,
+    id: 21,
 
     question:
       "Which of the following statements is true about the ping command?",
@@ -214,7 +207,7 @@ export const questions = [
       "The ping command tests connectivity and measures round-trip time to a specific device using its IP address.",
   },
   {
-    id: 23,
+    id: 22,
     question: "What is a requirement for nonoverlapping Wi-Fi channels?",
     options: [
       "different security settings",
@@ -225,7 +218,7 @@ export const questions = [
     answer: "discontinuous frequency ranges",
   },
   {
-    id: 24,
+    id: 23,
     question: "Identify the private address range in Class B",
     options: [
       "10.0.0.0 - 10.255.255.255",
@@ -236,14 +229,14 @@ export const questions = [
     answer: "172.16.0.0 - 172.31.255.255",
   },
   {
-    id: 25,
+    id: 24,
 
     question: "Which of the following is NOT a valid IPv4 address format?",
     options: ["192.168.1.1", "10.0.0.4", "172.16.31.12", "255.255.255.256"],
     answer: "255.255.255.256",
   },
   {
-    id: 26,
+    id: 25,
     question:
       "From the given options, identify core capabilities of cloud (Select TWO CORRECT options)",
     options: [
@@ -252,22 +245,10 @@ export const questions = [
       "Security",
       "Resource pooling",
     ],
-    answer: "super()",
+    answer: "Rapid Elasticity",
   },
   {
-    id: 27,
-    question:
-      "From the given options, identify core capabilities of cloud (Select TWO CORRECT options) ",
-    options: [
-      "Rapid Elasticity",
-      "Reliability",
-      "Security",
-      "Resource poolingS",
-    ],
-    answer: "Javascript XML",
-  },
-  {
-    id: 28,
+    id: 26,
     question: "Name few popular PAAS offerings (Select TWO CORRECT options)",
     options: ["LinkedIn", "Pixlr", "IBM Bluemix", "Google App Engine"],
     answer: "Javascript XML",
@@ -426,7 +407,6 @@ export const questions = [
   },
   {
     id: 43,
-
     question:
       "A global Enterprise network wants to use VLAN in their projects. Out of the given options which VLAN they can use?",
     options: ["1003", "1002", "1005", "1008"],

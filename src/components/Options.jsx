@@ -3,8 +3,9 @@ import { useState } from "react";
 function Options({ eachQuestion }) {
   const [selected, setSelcted] = useState([]);
 
-  function handleClick(event) {
+  function handleClick(event, mcqOption) {
     setSelcted([...selected, event.target.value]);
+    // console.log(typeof mcqOption);
   }
   return (
     <article>
@@ -24,7 +25,7 @@ function Options({ eachQuestion }) {
             className="container"
             htmlFor={mcqOption + eachQuestion.id}
             onClick={(e) => {
-              handleClick(e);
+              handleClick(e, eachQuestion.answer);
             }}
           >
             {mcqOption}
