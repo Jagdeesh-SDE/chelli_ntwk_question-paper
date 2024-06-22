@@ -20,7 +20,6 @@ export const allQuestions = [
   },
   {
     id: 3,
-
     question:
       "Which layer of the OSI model is included in the Internet layer of the TCP/IP model ?",
     options: ["Network", "Application", "Transport", "Datalink"],
@@ -36,19 +35,19 @@ export const allQuestions = [
       "It accepts Layer 3 packets and encapsulates them into frames",
       "It provides media access control and performs error detection",
     ],
-
-    answer: "It accepts Layer 3 packets and encapsulates them into frames",
-    // answer: [
-    //   "It accepts Layer 3 packets and encapsulates them into frames",
-    //   "It provides media access control and performs error detection",
-    // ],
+    mutlipleAnswers: true,
+    answer: [
+      "It accepts Layer 3 packets and encapsulates them into frames",
+      "It provides media access control and performs error detection",
+    ],
   },
   {
     id: 5,
     question:
-      "What two application layer protocols are part of TCP/IP protcol suite? ( Chooese two)",
+      "What two application layer protocols are part of TCP/IP protcol suite? (Choose two)",
     options: ["ARP", "FTP", "DNS", "NAT"],
-    answer: "FTP",
+    mutlipleAnswers: true,
+    answer: ["FTP", "DNS"],
   },
   {
     id: 6,
@@ -167,7 +166,8 @@ export const allQuestions = [
       "Router with multiple interfaces",
       "Switch Virtual interfaces",
     ],
-    answer: "ROAST",
+    mutlipleAnswers: true,
+    answer: ["ROAST", "Router With sub-interfaces"],
   },
   {
     id: 18,
@@ -245,7 +245,8 @@ export const allQuestions = [
       "Security",
       "Resource pooling",
     ],
-    answer: "Rapid Elasticity",
+    mutlipleAnswers: true,
+    answer: ["Rapid Elasticity", "Reliability", "Security", "Resource pooling"],
   },
   {
     id: 26,
@@ -416,7 +417,6 @@ export const allQuestions = [
   },
   {
     id: 44,
-
     question: "What are two functions of a Layer 2 switch? (Choose two.)",
     options: [
       "makes forwarding decisions based on the MAC address of a packet",
@@ -424,11 +424,11 @@ export const allQuestions = [
       "moves packets within a VLAN",
       "moves packets between different VLANs",
     ],
-    answer: "makes forwarding decisions based on the MAC address of a packet",
-    // answer: [
-    //   "makes forwarding decisions based on the MAC address of a packet",
-    //   "moves packets within a VLAN",
-    // ],
+    mutlipleAnswers: true,
+    answer: [
+      "makes forwarding decisions based on the MAC address of a packet",
+      "moves packets within a VLAN",
+    ],
   },
   {
     id: 45,
@@ -807,9 +807,34 @@ export const quizzQuestions = [
   {
     id: 32,
     question:
-      "Identify the devices which maintaln a database with source and destination details, Also use the same database to reach the destination.",
+      "Identify the devices which maintain a database with source and destination details, Also use the same database to reach the destination.",
     options: ["Router", "Hub", "Switch", "Printer", "Interconnections"],
     mutlipleAnswers: true,
     answer: ["Router", "Switch"],
+  },
+  {
+    id: 33,
+    question:
+      "Identify the protocols that do not belong to the Internet layer of the TCP/IP model.",
+    options: ["ICMp", "SNMP", "ARP", "IP", "NTP", "IPX"],
+    mutlipleAnswers: true,
+    answer: ["SNMP", "NTP"],
+  },
+  {
+    id: 34,
+    question:
+      "When the data is being sent from Jimmy's System to his team members, which activities can the transport layer perform?",
+    options: [
+      "Dividing the segment into packets",
+      "Perform routing to select the best path",
+      "Offers connection less and connection orientated transport services",
+      "Dividing the data into segments",
+      "Dividing the data into bits",
+    ],
+    mutlipleAnswers: true,
+    answer: [
+      "Offers connection less and connection orientated transport services",
+      "Dividing the data into segments",
+    ],
   },
 ];

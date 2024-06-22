@@ -1,9 +1,13 @@
 export const questionData = [
-  "Identify the devices which maintaln a database with source and destination details, Also use the same database to reach the destination.",
-  "Router",
-  "Hub",
-  "Switch",
-  "Printer",
-  "Interconnections",
-  ["Router", "Switch"],
+  "When the data is being sent from Jimmy's System to his team members, which activities can the transport layer perform?",
+  "Dividing the segment into packets",
+  "Perform routing to select the best path",
+  "Offers connection less and connection orientated transport services",
+  "Dividing the data into segments",
+  "Dividing the data into bits",
+
+  [
+    "Offers connection less and connection orientated transport services",
+    "Dividing the data into segments",
+  ],
 ];
