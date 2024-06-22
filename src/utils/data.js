@@ -658,4 +658,69 @@ export const quizzQuestions = [
     answer:
       "A catch-all route for destinations not listed in the routing table.",
   },
+  {
+    id: 19,
+    question: "Which of the following commands resets the BGP neighborship?",
+    options: [
+      "clear ip bgp * soft",
+      "clear ip bgp * soft IN",
+      "clear iP bgp * soft OUT",
+      "clear ip bgp *",
+    ],
+    answer: "clear ip bgp *",
+  },
+  {
+    id: 20,
+    question: "Identify AD value of OSPF and eBGP from the option respectively",
+    options: ["110 and 60", "110 and 20", "110 and 30", "110 and40"],
+    answer: "110 and 20",
+  },
+  {
+    id: 21,
+    question: "In IP routing, a prefix match is used for",
+    options: [
+      "Identifying the specific device within a network.",
+      "Encrypting the contents of a packet for secure transmission.",
+      "Matching a network address with a subnet mask to determine the network portion of an IP address.",
+      "Calculating the bandwidth required for a data transfer",
+    ],
+    answer:
+      "Matching a network address with a subnet mask to determine the network portion of an IP address.",
+  },
+  {
+    id: 22,
+    question:
+      "Ray wants to send a file to Bob. In order to connect Ray's Desktop to Bob's Laptop, which cable can be used?",
+    options: [
+      "Roll Over cable",
+      "Cross Over cable",
+      "Straight Through cable",
+      "Copper Cable",
+    ],
+    answer: "Cross Over cable",
+  },
+  {
+    id: 23,
+    question:
+      "In ATOM Llmlted's local area network, IO end user devices are connected to a main switch. Ray Palmer has joined as new employee ir the company and desktop has been assigned to him. Which cable connects Ray's Desktop to the main switch?",
+    options: [
+      "Straight Through cable",
+      "Roll Over cable",
+      "Cross Over cable",
+      "Fiber Optjc cable",
+    ],
+    answer: "Straight Through cable",
+  },
+  {
+    id: 24,
+    question:
+      "Shyam, the network administrator has to perform maintenance activity for ATOM Limited. To connect Bumblebee's PC to the main switch's console, the cable required is",
+    options: [
+      "Cross Over cable",
+      "Roll Over cable",
+      "Copper cable",
+      "Straight Through cable",
+    ],
+    answer: "Roll Over cable",
+  },
 ];
