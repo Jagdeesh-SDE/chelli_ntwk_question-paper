@@ -1,8 +1,7 @@
 import "./MCQ.css";
 import Options from "./Options";
-import { questions } from "../utils/data";
 
-function MCQ() {
+function MCQ({ questions }) {
   return (
     <>
       {questions.map((eachQuestion, i) => (
