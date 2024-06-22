@@ -3,7 +3,7 @@ import "./MCQ.css";
 import Options from "./Options";
 import { useLocation } from "react-router-dom";
 
-function MCQ({ questions }) {
+function MCQ({ questions, readingMode }) {
   const location = useLocation();
 
   useEffect(() => {
@@ -20,7 +20,7 @@ function MCQ({ questions }) {
           <h2 className="text-base font-medium mb-3">
             {eachQuestion.id}. {eachQuestion.question}
           </h2>
-          <Options eachQuestion={eachQuestion} />
+          <Options eachQuestion={eachQuestion} readingMode={readingMode} />
         </div>
       ))}
     </div>

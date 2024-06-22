@@ -55,6 +55,20 @@ function App() {
               </section>
             }
           ></Route>
+          <Route
+            path="/quick-revision"
+            element={
+              <section className="mx-auto w-[80%] min-h-[100vh]">
+                <h1 className="text-2xl font-bold mb-10">
+                  Quick Revision Section
+                </h1>
+                <MCQ questions={allQuestions} readingMode={true} />
+                <MCQ questions={IPConnectivity} readingMode={true} />
+                <MCQ questions={NetworkingFundamentals} readingMode={true} />
+                <MCQ questions={quizzQuestions} readingMode={true} />
+              </section>
+            }
+          ></Route>
           <Route path="/formatter" element={<OutputJson />}></Route>
         </Routes>
       </BrowserRouter>
