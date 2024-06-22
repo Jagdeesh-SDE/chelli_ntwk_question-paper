@@ -6,8 +6,8 @@ function MCQ() {
   return (
     <>
       {questions.map((eachQuestion, i) => (
-        <div className="question" key={eachQuestion.id}>
-          <h2>
+        <div className="question mb-10 w-[100%]" key={eachQuestion.id}>
+          <h2 className="text-base font-medium mb-3">
             {eachQuestion.id}. {eachQuestion.question}
           </h2>
           <Options eachQuestion={eachQuestion} />

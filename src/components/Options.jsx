@@ -13,16 +13,16 @@ function Options({ eachQuestion }) {
         <div
           className={
             selected.includes(mcqOption) && mcqOption === eachQuestion.answer
-              ? "option correct-option"
+              ? "option correct-option p-1.5"
               : selected.includes(mcqOption) &&
                 mcqOption !== eachQuestion.answer
-              ? "option wrong-option"
-              : "option"
+              ? "option wrong-option p-1.5"
+              : "option p-1.5"
           }
           key={mcqOption}
         >
           <label
-            className="container"
+            className="container text-sm"
             htmlFor={mcqOption + eachQuestion.id}
             onClick={(e) => {
               handleClick(e, eachQuestion.answer);
