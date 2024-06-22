@@ -251,7 +251,8 @@ export const allQuestions = [
     id: 26,
     question: "Name few popular PAAS offerings (Select TWO CORRECT options)",
     options: ["LinkedIn", "Pixlr", "IBM Bluemix", "Google App Engine"],
-    answer: "Javascript XML",
+    mutlipleAnswers: true,
+    answer: ["IBM Bluemix", "Google App Engine"],
   },
   {
     id: 29,
@@ -333,7 +334,8 @@ export const allQuestions = [
     id: 36,
     question: "which of the following VLAN IDs fall into the Normal Range?",
     options: ["1001", "1003", "1005", "1007"],
-    answer: "frame switching",
+    mutlipleAnswers: true,
+    answer: ["1001", "1003", "1005"],
   },
   {
     id: 37,
@@ -356,7 +358,7 @@ export const allQuestions = [
       "Global configuration mode",
       "specific configuration mode",
     ],
-    answer: "frame switching",
+    answer: "Global configuration mode",
   },
   {
     id: 39,
@@ -382,7 +384,7 @@ export const allQuestions = [
       "It alternates automatically between 2.4 GHz and 5 GHz on adjacent access points.",
     ],
     answer:
-      "Learns from the Source MAC Address of a Frame with respect to the incoming interface",
+      "It analyzes client load and background noise and dynamically assigns a channel.",
   },
   {
     id: 41,
@@ -789,5 +791,25 @@ export const quizzQuestions = [
       "Data, Segment, Packet, Frame, Bit",
     ],
     answer: "Data, packet, Frame, Segment, Bit",
+  },
+  {
+    id: 31,
+    question:
+      "John is using an IBM system and sends data using EBCDIC, whereas Smith is using a Microsoft system understands only ASCII code. To ensure both can understand each other's data, which layer of O* Model is needed?",
+    options: [
+      "Application Layer",
+      "Presentation Layer",
+      "Transport Layer",
+      "Sesston layer",
+    ],
+    answer: "Presentation Layer",
+  },
+  {
+    id: 32,
+    question:
+      "Identify the devices which maintaln a database with source and destination details, Also use the same database to reach the destination.",
+    options: ["Router", "Hub", "Switch", "Printer", "Interconnections"],
+    mutlipleAnswers: true,
+    answer: ["Router", "Switch"],
   },
 ];
