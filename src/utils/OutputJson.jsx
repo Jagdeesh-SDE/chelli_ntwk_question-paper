@@ -9,14 +9,15 @@ const formatQuestion = {
 
 const x = {
   id: 1,
-  question: "A network prefix is used to differentiate between:",
+  question: "What is the primary purpose of OSPF areas in a network?",
   options: [
-    "Individual devices on a network",
-    "The network itself and the devices connected to it",
-    "Different types of network traffic (e.g., voice vs. data)",
-    "Public and private IP addresses",
+    "To define different security zones for routing information.",
+    "To group routers with similar characteristics for faster convergence.",
+    "To simplify route advertisement and reduce traffic on the network backbone",
+    "To create separate routing tables for different parts of the network.",
   ],
-  answer: "The network itself and the devices connected to it",
+  answer:
+    "To simplify route advertisement and reduce traffic on the network backbone",
 };
 
 function OutputJson() {
