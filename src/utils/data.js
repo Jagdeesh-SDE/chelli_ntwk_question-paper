@@ -723,4 +723,71 @@ export const quizzQuestions = [
     ],
     answer: "Roll Over cable",
   },
+  {
+    id: 25,
+    question:
+      "How is the network layer of the OSI model identified in the TCP/IP modeP",
+    options: [
+      "Network Access Layer",
+      "Transport Layer",
+      "Internet Layer",
+      "Application Layer",
+    ],
+    answer: "Internet Layer",
+  },
+  {
+    id: 26,
+    question:
+      "Jimmy Olsen, Head of Daily Planet Limited wants to send the project specification of his client to the members of his team in manner. Which layer of the OSI model achieves this task?",
+    options: ["Session", "Presentation", "APPIication", "Transport"],
+    answer: "Presentation",
+  },
+  {
+    id: 27,
+    question:
+      "The data sent from John's system has 4 possible routes to reach Smith's system. The selection of best route among them happens at which layer of OSI Model ?",
+    options: [
+      "Transport Layer",
+      "Data link Layer",
+      "Network layer",
+      "Session Layer",
+    ],
+    answer: "Network layer",
+  },
+  {
+    id: 28,
+    question:
+      "Smith found the data sent by John is corrupted. Which layer of Model will help him to find this and recover the data?",
+    options: [
+      "Network Layer",
+      "Data link Layer",
+      "Transport Layer",
+      "Application Layer",
+    ],
+    answer: "Transport Layer",
+  },
+  {
+    id: 29,
+    question:
+      "When John sends data to Smith, which layer of OSI model delivers the data to Smith's desktop?",
+    options: [
+      "Data link Layer",
+      "Transport Layer",
+      "Network Layer",
+      "Session Layer",
+    ],
+    answer: "Data link Layer",
+  },
+  {
+    id: 30,
+    question:
+      "Identify the correct order of data encapsulation while data flows through OSI layers when John sent the data to Smith)",
+    options: [
+      "Bit, Frame, Packet Segment, Data",
+      "Bit, Packet, Frame, Segment, Data",
+      "Data, Frame, Packet, Segment, Bit",
+      "Data, Segment, Packet, Frame, Bit",
+    ],
+    answer: "Data, packet, Frame, Segment, Bit",
+  },
 ];
