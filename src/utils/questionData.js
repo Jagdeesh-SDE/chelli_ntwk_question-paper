@@ -1,8 +1,8 @@
 export const questionData = [
-  "In OSPF, a virtual link is used to",
-  "Connect two routers within the same area directly.",
-  "Connect a router in a non-backbone area to the backbone",
-  "Create a redundant path for increased reliability",
-  "Allow communication between different OSPF routing protocols-",
-  "Connect a router in a non-backbone area to the backbone",
+  "A default route serves as",
+  "A backup path for routes with high administrative distance.",
+  "A specific route to a frequently accessed network.",
+  "The only route a router can use to forward packets.",
+  "A catch-all route for destinations not listed in the routing table.",
+  "A catch-all route for destinations not listed in the routing table.",
 ];

@@ -586,4 +586,76 @@ export const quizzQuestions = [
     ],
     answer: "Connect a router in a non-backbone area to the backbone",
   },
+  {
+    id: 13,
+    question:
+      "A router shows its OSPF neighbor state as '2-way' What could be a potential cause?",
+    options: [
+      "The routers have compatible Router IDs.",
+      "The neighbor relationship is fully established.",
+      "The MTU (Maxmum Transmission Unit) sizes on the interfaces don't match.",
+      "The HELLO and Dead timers are configured differently on the routers.",
+    ],
+    answer: "The routers have compatible Router IDs.",
+  },
+  {
+    id: 14,
+    question:
+      "You suspect an OSPF router is not purging stale entries from its Link-State Database (LSDB). What might be the cause",
+    options: [
+      "The router is configured as a Designated Router (DR) in its area.",
+      "The neighbor relationship with other routers is down.",
+      "The admrustrative distance of a route is set too high.",
+      "The network mask of a subnet is incorrect.",
+    ],
+    answer: "The neighbor relationship with other routers is down.",
+  },
+  {
+    id: 15,
+    question: "In OSPF, a virtual link is used to",
+    options: [
+      "Connect two routers within the same area directly.",
+      "Connect a router in a non-backbone area to the backbone",
+      "Create a redundant path for increased reliability.",
+      "Allow communication between different OSPF routing protocols-",
+    ],
+    answer: "Connect a router in a non-backbone area to the backbone",
+  },
+  {
+    id: 16,
+    question: "MD5 authentication in OSPF provides",
+    options: [
+      "Encryption for data packets traveling between routers.",
+      "A mechanism to prevent unauthorized access to the routing process.",
+      "A way to optimize routing calculations for faster convergence.",
+      "A method for load balancing traffic across multiple paths.",
+    ],
+    answer:
+      "A mechanism to prevent unauthorized access to the routing process.",
+  },
+  {
+    id: 17,
+    question:
+      "A static route is manually configured by a network administrator to",
+    options: [
+      "Automatically learn about connected networks through routing protocols.",
+      "Define a path to a specific network that is not directly connected.",
+      "Securely encrypt data packets for transmission.",
+      "Assign unique IP addresses to devices on a network.",
+    ],
+    answer:
+      "Define a path to a specific network that is not directly connected.",
+  },
+  {
+    id: 18,
+    question: "A default route serves as",
+    options: [
+      "A backup path for routes with high administrative distance.",
+      "A specific route to a frequently accessed network.",
+      "The only route a router can use to forward packets.",
+      "A catch-all route for destinations not listed in the routing table.",
+    ],
+    answer:
+      "A catch-all route for destinations not listed in the routing table.",
+  },
 ];
