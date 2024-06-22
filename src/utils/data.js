@@ -443,3 +443,77 @@ export const allQuestions = [
       "The switch sends a copy of a packet to CPU for destination MAC address learning",
   },
 ];
+
+export const quizzQuestions = [
+  {
+    id: 1,
+    question:
+      "Which of the following statements accurately describes a routing table?",
+    options: [
+      "A dynamic table in a router that stores information about connected networks and how to reach them.",
+      "A static list of websites a user frequently visits.",
+      "A table used to calculate the distance between two network devices.",
+      "A database containing all IP addresses on the internet.",
+    ],
+    answer:
+      "A dynamic table in a router that stores information about connected networks and how to reach them.",
+  },
+  {
+    id: 2,
+    question: "A network mask is used for",
+    options: [
+      "Specifying the number of usable IP addresses within a subnet.",
+      "Creating strong passwords for network devices.",
+      "Preventing data corruption during packet transmission.",
+      "Filtering incoming email messages.",
+    ],
+    answer: "Specifying the number of usable IP addresses within a subnet.",
+  },
+  {
+    id: 3,
+    question:
+      "You suspect an OSPF router is not purging stale entries from its Link-State Database (LSDB). What might be the cause",
+    options: [
+      "The router is configured as a Designated Router (DR) in its area.",
+      "The neighbor relationship with other routers is down.",
+      "The administrative distance of a route is set too high.",
+      "The network mask of a subnet is incorrect.",
+    ],
+    answer: "The neighbor relationship with other routers is down.",
+  },
+  {
+    id: 4,
+    question:
+      "If two OSPF routers have discrepancies in their Link-State Databases, what is a common approach to resolve the issue?",
+    options: [
+      "Manually configure static routes on both routers.",
+      "Restart the OSPF process on one or both routers.",
+      "Change the area type of one of the routers.",
+      "Increase the HELLO timer interval on the interfaces.",
+    ],
+    answer: "Restart the OSPF process on one or both routers.",
+  },
+  {
+    id: 5,
+    question: "In a routing table entry. the next hop refers to",
+    options: [
+      "The final destination network for a packet.",
+      "The IP address of the router's interface connected to the destination network",
+      "The administrative distance of a specific route.",
+      "The type of routing protocol used to learn the route.",
+    ],
+    answer:
+      "The IP address of the router's interface connected to the destination network",
+  },
+  {
+    id: 6,
+    question: "The gateway of last resort is also known as",
+    options: [
+      "Primary DNS server.",
+      "Default gateway.",
+      "Internal routing protocol.",
+      "Static route entry.",
+    ],
+    answer: "Default gateway.",
+  },
+];

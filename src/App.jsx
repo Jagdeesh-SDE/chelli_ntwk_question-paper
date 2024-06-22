@@ -3,7 +3,7 @@ import "./App.css";
 import MCQ from "./components/MCQ";
 import Navbar from "./components/Navbar/Navbar";
 import OutputJson from "./utils/OutputJson";
-import { allQuestions } from "./utils/data";
+import { allQuestions, quizzQuestions } from "./utils/data";
 import { IPConnectivity } from "./utils/IP-Connectivity";
 import { NetworkingFundamentals } from "./utils/NetworkFundamentals";
 
@@ -43,6 +43,15 @@ function App() {
                   IP-Connectivity Section
                 </h1>
                 <MCQ questions={IPConnectivity} />
+              </section>
+            }
+          ></Route>
+          <Route
+            path="/quizzes"
+            element={
+              <section className="mx-auto w-[80%] min-h-[100vh]">
+                <h1 className="text-2xl font-bold mb-10">Quiz Section</h1>
+                <MCQ questions={quizzQuestions} />
               </section>
             }
           ></Route>

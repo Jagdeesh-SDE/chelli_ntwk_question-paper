@@ -1,8 +1,8 @@
 export const questionData = [
-  "Which of the following devices operates at Layer 2 (Data Link Layer) of the OSI model. forwarding frames based on MAC addresses?",
-  "Router",
-  "Switch",
-  "Modem",
-  "Firewall",
-  "Switch",
+  "The gateway of last resort is also known as",
+  "Primary DNS server.",
+  "Default gateway.",
+  "Internal routing protocol.",
+  "Static route entry.",
+  "Default gateway.",
 ];

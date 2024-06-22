@@ -59,6 +59,11 @@ function Drawer() {
               IP Connectivity
             </li>
           </Link>
+          <Link to="/quizzes" onClick={() => setIsChecked(false)}>
+            <li className="p-2 hover:bg-slate-400 hover:text-white hover:rounded-lg">
+              Quiz Section
+            </li>
+          </Link>
         </ul>
       </div>
     </div>
