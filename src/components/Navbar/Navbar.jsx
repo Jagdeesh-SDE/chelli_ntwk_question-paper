@@ -7,9 +7,9 @@ function Navbar() {
         <Drawer />
       </div>
       <div className="flex-1">
-        <a className="btn btn-ghost text-xl">Networking Questions</a>
+        <a className="btn btn-ghost text-sm">Networking Questions</a>
       </div>
-      <div className="flex-none">Made with ❤️ for my Sister</div>
+      <div className="flex-none text-xs">Made with ❤️ for my Sister</div>
     </div>
   );
 }
