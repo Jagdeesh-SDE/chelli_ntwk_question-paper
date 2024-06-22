@@ -1,4 +1,4 @@
-export const questions = [
+export const allQuestions = [
   {
     id: 1,
     question:

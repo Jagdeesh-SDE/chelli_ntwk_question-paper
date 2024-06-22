@@ -46,6 +46,11 @@ function Drawer() {
 
           <Link to="/" onClick={() => setIsChecked(false)}>
             <li className="p-2 hover:bg-slate-400 hover:text-white hover:rounded-lg">
+              All Questions
+            </li>
+          </Link>
+          <Link to="/network-fundamentals" onClick={() => setIsChecked(false)}>
+            <li className="p-2 hover:bg-slate-400 hover:text-white hover:rounded-lg">
               Network Fundamentals
             </li>
           </Link>

@@ -3,8 +3,9 @@ import "./App.css";
 import MCQ from "./components/MCQ";
 import Navbar from "./components/Navbar/Navbar";
 import OutputJson from "./utils/OutputJson";
-import { questions } from "./utils/data";
+import { allQuestions } from "./utils/data";
 import { IPConnectivity } from "./utils/IP-Connectivity";
+import { NetworkingFundamentals } from "./utils/NetworkFundamentals";
 
 function App() {
   return (
@@ -17,9 +18,20 @@ function App() {
             element={
               <section className="mx-auto w-[80%] min-h-[100vh]">
                 <h1 className="text-2xl font-bold mb-10">
+                  All Questions Section
+                </h1>
+                <MCQ questions={allQuestions} />
+              </section>
+            }
+          ></Route>
+          <Route
+            path="/network-fundamentals"
+            element={
+              <section className="mx-auto w-[80%] min-h-[100vh]">
+                <h1 className="text-2xl font-bold mb-10">
                   Network Fundamentals Section
                 </h1>
-                <MCQ questions={questions} />
+                <MCQ questions={NetworkingFundamentals} />
               </section>
             }
           ></Route>

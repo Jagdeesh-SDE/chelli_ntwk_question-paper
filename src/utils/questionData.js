@@ -1,8 +1,8 @@
 export const questionData = [
-  "What is the primary purpose of OSPF areas in a network?",
-  "To define different security zones for routing information.",
-  "To group routers with similar characteristics for faster convergence.",
-  "To simplify route advertisement and reduce traffic on the network backbone",
-  "To create separate routing tables for different parts of the network.",
-  "To simplify route advertisement and reduce traffic on the network backbone",
+  "Which of the following devices operates at Layer 2 (Data Link Layer) of the OSI model. forwarding frames based on MAC addresses?",
+  "Router",
+  "Switch",
+  "Modem",
+  "Firewall",
+  "Switch",
 ];
