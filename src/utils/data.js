@@ -516,4 +516,74 @@ export const quizzQuestions = [
     ],
     answer: "Default gateway.",
   },
+  {
+    id: 7,
+    question:
+      "Which of the following statements describes packet filtering MOST accurately",
+    options: [
+      "It inspects the contents of packets to determine whether to allow or block them based on pre-defined rule",
+      "It forwards packets based on their destination MAC addresses.",
+      "It breaks down large data packets into smaller units for transmission.",
+      "It assigns unique IP addresses to devices on a network.",
+    ],
+    answer:
+      "It inspects the contents of packets to determine whether to allow or block them based on pre-defined rule",
+  },
+  {
+    id: 8,
+    question: "In a packet-switched network, data is transmitted using",
+    options: [
+      "Dedicated circuits between sender and receiver.",
+      "Packets containing source and destination addresses.",
+      "A single. continuous stream of data.",
+      "Only wireless communication protocols.",
+    ],
+    answer: "Packets containing source and destination addresses.",
+  },
+  {
+    id: 9,
+    question:
+      "When a router has multiple routes to the same destination. it will choose the route based on:",
+    options: [
+      "The source IP address of the packet.",
+      "The type of routing protocol that learned the route.",
+      "The higher subnet mask value (more specific network).",
+      "The lower administrative distance (more preferred route)",
+    ],
+    answer: "The lower administrative distance (more preferred route)",
+  },
+  {
+    id: 10,
+    question: "A floating static match is a type of static route with",
+    options: [
+      "lower administrative distance than a default route. making it the preferred path.",
+      "A higher administrative distance than a default route. serving as a backup.",
+      "No next hop specified, requiring manual packet forwarding.",
+      "The ability to dynamically change its destination network.",
+    ],
+    answer:
+      "A higher administrative distance than a default route. serving as a backup.",
+  },
+  {
+    id: 11,
+    question: "OSPF Area 0 is",
+    options: [
+      "A user-defined area for specific network segments.",
+      "The mandatory backbone area that all other areas connect to.",
+      "An area that cannot exchange routing information with other areas.",
+      "Used to isolate stub networks from the backbone.",
+    ],
+    answer: "The mandatory backbone area that all other areas connect to.",
+  },
+  {
+    id: 12,
+    question: "In OSPF, a virtual link is used to",
+    options: [
+      "Connect two routers within the same area directly.",
+      "Connect a router in a non-backbone area to the backbone",
+      "Create a redundant path for increased reliability",
+      "Allow communication between different OSPF routing protocols-",
+    ],
+    answer: "Connect a router in a non-backbone area to the backbone",
+  },
 ];
