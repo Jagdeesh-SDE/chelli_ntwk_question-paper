@@ -62,10 +62,26 @@ function App() {
                 <h1 className="text-2xl font-bold mb-10">
                   Quick Revision Section
                 </h1>
-                <MCQ questions={allQuestions} readingMode={true} />
-                <MCQ questions={IPConnectivity} readingMode={true} />
-                <MCQ questions={NetworkingFundamentals} readingMode={true} />
-                <MCQ questions={quizzQuestions} readingMode={true} />
+                <MCQ
+                  questions={allQuestions}
+                  readingMode={true}
+                  questionNo={1}
+                />
+                <MCQ
+                  questions={IPConnectivity}
+                  readingMode={true}
+                  questionNo={46}
+                />
+                <MCQ
+                  questions={NetworkingFundamentals}
+                  readingMode={true}
+                  questionNo={61}
+                />
+                <MCQ
+                  questions={quizzQuestions}
+                  readingMode={true}
+                  questionNo={72}
+                />
               </section>
             }
           ></Route>
