@@ -838,3 +838,59 @@ export const quizzQuestions = [
     ],
   },
 ];
+
+export const wirelessLocalNetwork = [
+  {
+    id: 1,
+    question:
+      "Which component is responsible for managing user connections and security in a wireless network?",
+    options: ["Infrastructure", "ESS", "BSS", "Client Device"],
+    answer: "Infrastructure",
+  },
+  {
+    id: 2,
+    question: "What is the primary function of the ESS in a wireless network ?",
+    options: [
+      "Provides user authentication and access control",
+      "Defines the basic operating area for wireless devices",
+      "Manages multiple BSS networks",
+      "Connects to wired networks",
+    ],
+    answer: "Manages multiple BSS networks",
+  },
+  {
+    id: 3,
+    question:
+      "The 802.11 standard defines the protocols for wireless communication. Which of the following standards operates in the 2.4 GHz frequency band?",
+    options: ["802.11a", "802.11b", "802.11g", "802.11n"],
+    answer: "802.11b",
+  },
+  {
+    id: 4,
+    question:
+      "Which 802.11 standard introduced higher data rates compared to@02.11 b, but still operates in the 2.4 GHz band?",
+    options: ["802.11a", "802.11b", "802.11g", "802.11n"],
+    answer: "802.11g",
+  },
+  {
+    id: 5,
+    question:
+      "802.11n introduced MIMO (Multiple-input Multiple-Output) technology for improved performance. Which standard succeeded 802.11n and offertd even faster data rates?",
+    options: ["802.11a", "802.11b", "802.11g", "802.11c"],
+    answer: "802.11c",
+  },
+  {
+    id: 5,
+    question:
+      "In an office building, multiple access points are configured to form a single wireless network. This is an example of which type of network ?",
+    options: ["Infrastructure", "ESS", "BSS", "Client Device"],
+    answer: "Infrastructure",
+  },
+  {
+    id: 6,
+    question:
+      "When a user roams between access points within an ESS, their connection is maintained seamlessly. What technology enables this ?",
+    options: ["BSS", "ESS", "802.11a", "802.11c"],
+    answer: "Infrastructure",
+  },
+];

@@ -64,6 +64,11 @@ function Drawer() {
               Quiz Section
             </li>
           </Link>
+          <Link to="/wireless-lan" onClick={() => setIsChecked(false)}>
+            <li className="p-2 hover:bg-slate-400 hover:text-white hover:rounded-lg">
+              Wireless LAN
+            </li>
+          </Link>
           <Link to="/quick-revision" onClick={() => setIsChecked(false)}>
             <li className="p-2 hover:bg-slate-400 hover:text-white hover:rounded-lg">
               Quick Revision Section

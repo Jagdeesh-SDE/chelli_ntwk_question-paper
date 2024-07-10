@@ -3,7 +3,11 @@ import "./App.css";
 import MCQ from "./components/MCQ";
 import Navbar from "./components/Navbar/Navbar";
 import OutputJson from "./utils/OutputJson";
-import { allQuestions, quizzQuestions } from "./utils/data";
+import {
+  allQuestions,
+  quizzQuestions,
+  wirelessLocalNetwork,
+} from "./utils/data";
 import { IPConnectivity } from "./utils/IP-Connectivity";
 import { NetworkingFundamentals } from "./utils/NetworkFundamentals";
 
@@ -56,6 +60,17 @@ function App() {
             }
           ></Route>
           <Route
+            path="/wireless-lan"
+            element={
+              <section className="mx-auto w-[80%] min-h-[100vh]">
+                <h1 className="text-2xl font-bold mb-10">
+                  Wireless-Local-Area-Network
+                </h1>
+                <MCQ questions={wirelessLocalNetwork} />
+              </section>
+            }
+          ></Route>
+          <Route
             path="/quick-revision"
             element={
               <section className="mx-auto w-[80%] min-h-[100vh]">
@@ -79,6 +94,11 @@ function App() {
                 />
                 <MCQ
                   questions={quizzQuestions}
+                  readingMode={true}
+                  questionNo={72}
+                />
+                <MCQ
+                  questions={wirelessLocalNetwork}
                   readingMode={true}
                   questionNo={72}
                 />
