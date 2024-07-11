@@ -893,4 +893,65 @@ export const wirelessLocalNetwork = [
     options: ["BSS", "ESS", "802.11a", "802.11c"],
     answer: "Infrastructure",
   },
+  {
+    id: 7,
+    question:
+      "A signal processing technique for directional signal transmission or reception is called as",
+    options: [
+      "Directional Antenna",
+      "Beamforming",
+      "Phased array",
+      "Radio repeaters",
+    ],
+    answer: "Beamforming",
+  },
+  {
+    id: 8,
+    question: "The job of Amplifier is to make signal",
+    options: ["Forward", "Bigger", "Smaller", "Stop"],
+    answer: "Bigger",
+  },
+  {
+    id: 9,
+    question: "The common phenomenon of reflection are",
+    options: [
+      "Surface of the Earth",
+      "Surface of the Sky",
+      "Surface of Water",
+      "None of the above",
+    ],
+    answer: "Surface of the Earth",
+  },
+  {
+    id: 10,
+    question: "The objective of OF-OM is",
+    options: [
+      "Only to split channels",
+      "Deviating the signals",
+      "Splitting channel to sub-channels",
+      "Deviating channels",
+    ],
+    answer: "Splitting channel to sub-channels",
+  },
+  {
+    id: 11,
+    question:
+      "The technology that carries bandwidth and lowpeak power for communication is called as",
+    options: ["Demodulation", "Spectrum", "Spread Spectrum", "FCC regulations"],
+    answer: "Spread Spectrum",
+  },
+  {
+    id: 12,
+    question:
+      "The time period for which the carrier remains at a certain frequency for a specified time is known as The time period for which the carrier remains at a certain frequency for a specified time is know as",
+    options: ["Well Time", "Jump time", "Dwell Time", "Hop time"],
+    answer: "Dwell Time",
+  },
+  {
+    id: 13,
+    question:
+      "In DSSS the code that determines the ratio of spreading occurrence",
+    options: ["per bit", "chips", "Spread Spectrum", "Channel length"],
+    answer: "Dwell Time",
+  },
 ];
