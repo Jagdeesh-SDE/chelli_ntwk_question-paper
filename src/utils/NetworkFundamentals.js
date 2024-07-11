@@ -28,6 +28,7 @@ export const NetworkingFundamentals = [
       "A ping utility",
       "A video editing software",
     ],
+    answer: "A web browser",
   },
   {
     id: 4,
