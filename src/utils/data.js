@@ -955,3 +955,130 @@ export const wirelessLocalNetwork = [
     answer: "chips",
   },
 ];
+
+export const ipServicesNetwork = [
+  {
+    id: 1,
+    question: "What is the maximumstratum value defined by the NTP protocol ?",
+    options: ["8", "15", "32", "64"],
+    answer: "15",
+  },
+  {
+    id: 2,
+    question:
+      "Which of the following devices typically has a stratum level of 1 ?",
+    options: [
+      "Routers in a home network",
+      "Servers with GPS receivers for timekeeping",
+      "Workstationsin an office environment",
+      "Connects to wired networks",
+    ],
+    answer: "Servers with GPS receivers for timekeeping",
+  },
+  {
+    id: 3,
+    question: "Identify the port number used by Network Time Protocol.",
+    options: ["TCP-123", "UDP-123", "TCP and UDP-123"],
+    answer: "UDP-123",
+  },
+  {
+    id: 4,
+    question:
+      "SDB1 desktops automatically get updated time and date information when the users log in using Infosys login credentials. Which protocol helps to get the automatic time and date update for each of the desktops through centralized system ?",
+    options: ["DNS", "TCP", "UDP", "NTP"],
+    answer: "NTP",
+  },
+  {
+    id: 5,
+    question:
+      "Identify the UDP port number used by DHCP for sending data to the server.",
+    options: ["66", "67", "68", "69"],
+    answer: "67",
+  },
+  {
+    id: 6,
+    question: "Which of the following is a benefit of using DHCP in a network?",
+    options: [
+      "It requires manual configuration of each device's IP address.",
+      "It simplifies network administration by automating IP address assignment",
+      "It increases the chance of IP address conflicts.",
+      "It requires aditional software installation on each client device.",
+    ],
+    answer:
+      "It simplifies network administration by automating IP address assignment",
+  },
+  {
+    id: 7,
+    question:
+      "A DHCP client on subnet 192.168.1.0/24 needs to communicate with a DHCP server on subnet 10.0.0.0/8 in this scenario, which device can assist the client ?",
+    options: [
+      "A DHCP server with multiple network interfaces",
+      "A standard router",
+      "A DHCP relay agent configured on the router connecting the two subnets",
+    ],
+    answer:
+      "A DHCP relay agent configured on the router connecting the two subnets",
+  },
+  {
+    id: 8,
+    question:
+      "DHCP provides __________ to the ",
+    options: [
+      "Directional Antenna",
+      "Beamforming",
+      "Phased array",
+      "Radio repeaters",
+    ],
+    answer: "Beamforming",
+  },
+  {
+    id: 9,
+    question: "The job of Amplifier is to make signal",
+    options: ["Forward", "Bigger", "Smaller", "Stop"],
+    answer: "Bigger",
+  },
+  {
+    id: 10,
+    question: "The common phenomenon of reflection are",
+    options: [
+      "Surface of the Earth",
+      "Surface of the Sky",
+      "Surface of Water",
+      "None of the above",
+    ],
+    answer: "Surface of the Earth",
+  },
+  {
+    id: 11,
+    question: "The objective of OF-OM is",
+    options: [
+      "Only to split channels",
+      "Deviating the signals",
+      "Splitting channel to sub-channels",
+      "Deviating channels",
+    ],
+    answer: "Splitting channel to sub-channels",
+  },
+  {
+    id: 12,
+    question:
+      "The technology that carries bandwidth and lowpeak power for communication is called as",
+    options: ["Demodulation", "Spectrum", "Spread Spectrum", "FCC regulations"],
+    answer: "Spread Spectrum",
+  },
+  {
+    id: 13,
+    question:
+      "The time period for which the carrier remains at a certain frequency for a specified time is known as The time period for which the carrier remains at a certain frequency for a specified time is know as",
+    options: ["Well Time", "Jump time", "Dwell Time", "Hop time"],
+    answer: "Dwell Time",
+  },
+  {
+    id: 14,
+    question:
+      "In DSSS the code that determines the ratio of spreading occurrence",
+    options: ["per bit", "chips", "Spread Spectrum", "Channel length"],
+    answer: "chips",
+  },
+];
+

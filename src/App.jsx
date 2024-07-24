@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar/Navbar";
 import OutputJson from "./utils/OutputJson";
 import {
   allQuestions,
+  ipServicesNetwork,
   quizzQuestions,
   wirelessLocalNetwork,
 } from "./utils/data";
@@ -67,6 +68,17 @@ function App() {
                   Wireless-Local-Area-Network
                 </h1>
                 <MCQ questions={wirelessLocalNetwork} />
+              </section>
+            }
+          ></Route>
+          <Route
+            path="/ip-services-network"
+            element={
+              <section className="mx-auto w-[80%] min-h-[100vh]">
+                <h1 className="text-2xl font-bold mb-10">
+                  IP Services-Network Associate
+                </h1>
+                <MCQ questions={ipServicesNetwork} />
               </section>
             }
           ></Route>

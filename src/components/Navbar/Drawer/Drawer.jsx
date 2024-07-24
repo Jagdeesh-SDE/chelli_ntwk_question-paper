@@ -69,6 +69,11 @@ function Drawer() {
               Wireless LAN
             </li>
           </Link>
+          <Link to="/ip-services-network" onClick={() => setIsChecked(false)}>
+            <li className="p-2 hover:bg-slate-400 hover:text-white hover:rounded-lg">
+              IP Services-Network Associate
+            </li>
+          </Link>
           <Link to="/quick-revision" onClick={() => setIsChecked(false)}>
             <li className="p-2 hover:bg-slate-400 hover:text-white hover:rounded-lg">
               Quick Revision Section
