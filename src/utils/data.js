@@ -1021,43 +1021,46 @@ export const ipServicesNetwork = [
   },
   {
     id: 8,
-    question:
-      "DHCP provides __________ to the ",
-    options: [
-      "Directional Antenna",
-      "Beamforming",
-      "Phased array",
-      "Radio repeaters",
-    ],
-    answer: "Beamforming",
+    question: "DHCP provides __________ to the ",
+    options: ["MAC Address", "IP Address", "Port number", "URL"],
+    answer: "IP Address",
   },
   {
     id: 9,
-    question: "The job of Amplifier is to make signal",
-    options: ["Forward", "Bigger", "Smaller", "Stop"],
-    answer: "Bigger",
+    question: "Choose the correct options with respect to DHCP",
+    options: [
+      "Maintains a database of available IP addresses",
+      "Maintains the information about clients IP addresses",
+      "Grants an IP address when a request is received from a client",
+      "Maintains information about mapping of MAC addresses with corresponding IP addresses",
+    ],
+    mutlipleAnswers: true,
+    answer: [
+      "Maintains a database of available IP addresses",
+      "Maintains the information about clients IP addresses",
+      "Grants an IP address when a request is received from a client",
+      "Maintains information about mapping of MAC addresses with corresponding IP addresses",
+    ],
   },
   {
     id: 10,
-    question: "The common phenomenon of reflection are",
+    question:
+      "In which scenario, DNS protocol uses TCP for client-server transmission?",
     options: [
-      "Surface of the Earth",
-      "Surface of the Sky",
-      "Surface of Water",
-      "None of the above",
+      "When the packet size is below 512 bytes",
+      "When the packet size exceeds 512 bytes",
+      "By default DNS protocol uses TCP for client — server transmission",
+      "When the packet size is within 210 bytes",
     ],
-    answer: "Surface of the Earth",
+    answer: "When the packet size exceeds 512 bytes",
   },
   {
     id: 11,
-    question: "The objective of OF-OM is",
-    options: [
-      "Only to split channels",
-      "Deviating the signals",
-      "Splitting channel to sub-channels",
-      "Deviating channels",
-    ],
-    answer: "Splitting channel to sub-channels",
+    question:
+      "    What type of DNS record maps an IP address to a hostname (useful for troubleshooting)?",
+
+    options: ["A Record", "PTR Record", "MX Record"],
+    answer: "PTR Record",
   },
   {
     id: 12,
@@ -1081,4 +1084,3 @@ export const ipServicesNetwork = [
     answer: "chips",
   },
 ];
-
