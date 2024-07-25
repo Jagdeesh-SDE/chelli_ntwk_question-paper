@@ -1137,4 +1137,155 @@ export const ipServicesNetwork = [
     options: ["Request", "Offer", "Discover", "Acknowledge"],
     answer: "Discover",
   },
+  {
+    id: 19,
+    question: "What record does Record Type MX of DNS hold?",
+    options: [
+      "It the mapping between IPV4 Address to Host Names",
+      "Mapping between Domain names to Message Transfer Agents",
+      "Specifies Authoritative Information about a DNS ZONE",
+      "It returns the 32 bit IPV4 Address for a hostname",
+    ],
+    answer: "Mapping between Domain names to Message Transfer Agents",
+  },
+  {
+    id: 20,
+    question:
+      "Why was Secure Shell (SSH) developed as an alternative to Telnet?",
+    options: [
+      "SSH offers a more user-friendly interface for remote device management.",
+      "SSH provides faster connection speeds compared to Telnet.",
+      "SSH addresses security concerns by encrypting usernames and passwords during login.",
+      "SSH is specifically designed for managing cloud-based network devices.",
+    ],
+    answer:
+      "SSH addresses security concerns by encrypting usernames and passwords during login.",
+  },
+  {
+    id: 21,
+    question:
+      "What are the advantages of DHCP? (i) It minimizes the work of assigning IP addresses by the Network Administrator for each host. (ii) The DHCP server ensures optimal usage of IP address (iii) It assigns IP addresses for limited time of use.",
+    options: [
+      "Only i) and ii)",
+      "Only iii)",
+      "Only ii) and iii)",
+      "All i), ii) and iii)",
+    ],
+    answer: "All i), ii) and iii)",
+  },
+  {
+    id: 22,
+    question:
+      "A FTP client connects to an FTP server using active mode and retrieves a copy of a file from the server. Which of the answers describes a TCP connection initiated by the FTP client?",
+    options: [
+      "The FTP control connection",
+      "The FTP data connection",
+      "The FTP TLS connection",
+      "None of the above",
+    ],
+    answer: "The FTP control connection",
+  },
+  {
+    id: 23,
+    question:
+      " Which of the following functions are supported by FTP but not by TFTP? ( Choose two answers)",
+    options: [
+      "Transferring files from client to server",
+      "Changing the current directory on the server",
+      "Transferring files from server to client",
+      "Listing directory contents of a server's directory",
+    ],
+    mutlipleAnswers: true,
+    answer: [
+      "Changing the current directory on the server",
+      "Listing directory contents of a server's directory",
+    ],
+  },
+  {
+    id: 24,
+    question:
+      "Customer wants to establish remote access to the Routers and Switches which are present in secondary site from the central office. Identify the appropriate protocols which fulfill customers requirement?",
+    options: ["SSH", "RDP", "Telnet", "FTP"],
+    mutlipleAnswers: true,
+    answer: ["SSH", "Telnet"],
+  },
+  {
+    id: 25,
+    question:
+      "Which of the following SNMP messages are typically sent by an SNMP agent?",
+    options: ["Trap", "Get Request", "Inform", "Set Request"],
+    mutlipleAnswers: true,
+    answer: ["Trap", "Inform"],
+  },
+  {
+    id: 26,
+    question:
+      "Refer the below exhibit and suggest, Which command to be executed on RELAY_AGENT so that Client will receive the IP address ?",
+    options: [
+      "int fO/1 ip helper-address 70.0.0.1 exit",
+      "int fO/0 ip helper-address 60.0.0.2 exit",
+      "int fO/O ip helper-address 50.0.0.1 exit",
+      "int fO/1 ip helper-address 50.0.0.1 exit",
+    ],
+    answer: "int fO/1 ip helper-address 70.0.0.1 exit",
+  },
+  {
+    id: 27,
+    question:
+      "Which of the following statements accurately describe Syslog facilities? ( select 2 options)",
+    options: [
+      "They categorize log messages based on the username associated with the event.",
+      "They categorize log messages based on their source or purpose (e.g., auth, kern, user).",
+      "They define the size of the log message file on the server.",
+      "They specify the network protocol used for transmitting syslog messages",
+      "They assign unique identification numbers to each log message.",
+    ],
+    mutlipleAnswers: true,
+    answer: [
+      "They categorize log messages based on their source or purpose (e.g., auth, kern, user).",
+      "They specify the network protocol used for transmitting syslog messages",
+    ],
+  },
+
+  {
+    id: 28,
+    question: "In which mode the FTP connection is established by the client.",
+    options: ["Active", "Passive", "Closed connection", "Open connection"],
+    answer: "Active",
+  },
+  {
+    id: 29,
+    question: "In which mode the FTP connection is established by the client.",
+    options: ["Active", "Passive", "Closed connection", "Open connection"],
+    answer: "Active",
+  },
+  {
+    id: 30,
+    question: "Why is Telnet a useful protocol for network administrators?",
+    options: [
+      "Telnet offers a secure way to transfer large files between devices.",
+      "Telnet allows remote access to network devices for configuration and troubleshooting.",
+      "Telnet provides real-time video conferencing capabilities for remote collaboration.",
+      "Telnet simplifies web browsing by caching frequently accessed websites.",
+    ],
+    answer:
+      "Telnet allows remote access to network devices for configuration and troubleshooting.",
+  },
+  {
+    id: 27,
+    question:
+      "What is the primary function of the Syslog Application Layer? ( select 2 options)",
+    options: [
+      "Define the format of the log message content.",
+      "Interpret the message, route it to the log server, and handle storage.",
+      "Entrypt the message content for secure transmission.",
+      "Select the appropriate transport protocol for sending the message.",
+      "Compress the message to reduce network bandwidth usage.",
+    ],
+    mutlipleAnswers: true,
+    answer: [
+      "Define the format of the log message content.",
+      "Interpret the message, route it to the log server, and handle storage.",
+    ],
+  },
 ];
