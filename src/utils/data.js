@@ -1109,7 +1109,7 @@ export const ipServicesNetwork = [
     answer: "Get-next",
   },
   {
-    id: 15,
+    id: 16,
     question:
       "What is the benefit of usng the GETBULK functon compared to multiple GET requests ?",
     options: [
@@ -1120,5 +1120,21 @@ export const ipServicesNetwork = [
     ],
     answer:
       "It retrieves multiple variables from the agent in a single request",
+  },
+  {
+    id: 17,
+    question:
+      "A queuing system has three queues serviced with round-robin scheduling and one low latency queue that holds all voice traffic. Round-robin queue 1 holds predominantly UDP traffic, while round-robin queues 2 and 3 hold predominantly TCP traffic. The packets in each queue happen to have a variety of DSCP markings per the QoS design. In which queues would it make sense to use a congestion avoidance(drop management) tool?(Choose two answers)",
+
+    options: ["The LLQ", "Queue 1", "Queue 2", "Queue 3"],
+    mutlipleAnswers: true,
+    answer: ["Queue 2", "Queue 3"],
+  },
+  {
+    id: 18,
+    question:
+      "When a host connects into network, it sends broadcast request searching for the available DHCP servers. What type of the DHCP Handshake process is it?",
+    options: ["Request", "Offer", "Discover", "Acknowledge"],
+    answer: "Discover",
   },
 ];
