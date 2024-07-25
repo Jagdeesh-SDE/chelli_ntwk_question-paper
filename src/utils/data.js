@@ -1065,22 +1065,47 @@ export const ipServicesNetwork = [
   {
     id: 12,
     question:
-      "The technology that carries bandwidth and lowpeak power for communication is called as",
-    options: ["Demodulation", "Spectrum", "Spread Spectrum", "FCC regulations"],
-    answer: "Spread Spectrum",
+      "If a local DNS server has no information on resolving the host name into address, then...",
+    options: [
+      "Server forwards the request to the root DNS server",
+      "Server forwards the request to the next level DNS server",
+      "Request will not be processed",
+      "Displays error message as 'webpage is not available",
+    ],
+    answer: "Server forwards the request to the next level DNS server",
   },
   {
     id: 13,
-    question:
-      "The time period for which the carrier remains at a certain frequency for a specified time is known as The time period for which the carrier remains at a certain frequency for a specified time is know as",
-    options: ["Well Time", "Jump time", "Dwell Time", "Hop time"],
-    answer: "Dwell Time",
+    question: "DNS database contains",
+
+    options: [
+      "Name server records",
+      "Hostname to IP addressing mapping records",
+      "Aliases for hostnames",
+    ],
+    mutlipleAnswers: true,
+    answer: [
+      "Name server records",
+      "Hostname to IP addressing mapping records",
+      "Aliases for hostnames",
+    ],
   },
   {
     id: 14,
+    question: "Main difference between SNMPv3 and SNMPv2c is .....",
+    options: [
+      "Management",
+      "Integration",
+      "Classification",
+      "Enhanced security",
+    ],
+    answer: "Enhanced security",
+  },
+  {
+    id: 15,
     question:
-      "In DSSS the code that determines the ratio of spreading occurrence",
-    options: ["per bit", "chips", "Spread Spectrum", "Channel length"],
-    answer: "chips",
+      "Which type of SNMP PDU-type supports the retrieval of values of the variables next to a particular OID?",
+    options: ["Get", "Get-next", "Get-bulk", "Get-response"],
+    answer: "Get-next",
   },
 ];
