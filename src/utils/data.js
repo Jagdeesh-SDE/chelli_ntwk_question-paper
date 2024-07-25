@@ -1108,4 +1108,17 @@ export const ipServicesNetwork = [
     options: ["Get", "Get-next", "Get-bulk", "Get-response"],
     answer: "Get-next",
   },
+  {
+    id: 15,
+    question:
+      "What is the benefit of usng the GETBULK functon compared to multiple GET requests ?",
+    options: [
+      "It encrypts the data being transferred.",
+      "It allows the NMS to modify multiple variables at once.",
+      "It retrieves multiple variables from the agent in a single request",
+      "It guarantees real-time data from the agent",
+    ],
+    answer:
+      "It retrieves multiple variables from the agent in a single request",
+  },
 ];
